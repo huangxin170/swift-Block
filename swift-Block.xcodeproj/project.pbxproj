@@ -16,6 +16,7 @@
 		2792DC832510AC35005C59AF /* swift_BlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792DC822510AC35005C59AF /* swift_BlockTests.swift */; };
 		2792DC8E2510AC35005C59AF /* swift_BlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792DC8D2510AC35005C59AF /* swift_BlockUITests.swift */; };
 		2792DC9C2510AFC0005C59AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792DC9B2510AFC0005C59AF /* HomeViewController.swift */; };
+		2792DC9E2510B57E005C59AF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792DC9D2510B57E005C59AF /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2792DC8D2510AC35005C59AF /* swift_BlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_BlockUITests.swift; sourceTree = "<group>"; };
 		2792DC8F2510AC35005C59AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2792DC9B2510AFC0005C59AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2792DC9D2510B57E005C59AF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2792DC6D2510AC33005C59AF /* SceneDelegate.swift */,
 				2792DC6F2510AC33005C59AF /* ViewController.swift */,
 				2792DC9B2510AFC0005C59AF /* HomeViewController.swift */,
+				2792DC9D2510B57E005C59AF /* Utils.swift */,
 				2792DC712510AC33005C59AF /* Main.storyboard */,
 				2792DC742510AC34005C59AF /* Assets.xcassets */,
 				2792DC762510AC34005C59AF /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2792DC9E2510B57E005C59AF /* Utils.swift in Sources */,
 				2792DC702510AC33005C59AF /* ViewController.swift in Sources */,
 				2792DC6C2510AC33005C59AF /* AppDelegate.swift in Sources */,
 				2792DC6E2510AC33005C59AF /* SceneDelegate.swift in Sources */,
