@@ -19,15 +19,7 @@ class HomeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.view.backgroundColor = UIColor.white
-        
-        let button = UIButton(frame: CGRect(x: 0, y: 100, width: 100, height: 100))
-        button.setTitle("返回", for: .normal)
-        button.backgroundColor = UIColor.black
-        button.setTitleColor(UIColor.white, for: .normal)
-        button.titleLabel?.adjustsFontSizeToFitWidth = true
-        button.addTarget(self, action: #selector(ONActionBack), for: .touchUpInside)
-        self.view.addSubview(button)
+       creatUI()
         
         utils.loadData { (callData:String, dic:Dictionary) in
             print("回调的数据:\(callData)")
@@ -45,14 +37,20 @@ class HomeViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
+   
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+}
+
+
+extension HomeViewController{
+    func creatUI(){
+        self.view.backgroundColor = UIColor.white
+        let button = UIButton(frame: CGRect(x: 0, y: 100, width: 100, height: 100))
+        button.setTitle("返回", for: .normal)
+        button.backgroundColor = UIColor.black
+        button.setTitleColor(UIColor.white, for: .normal)
+        button.titleLabel?.adjustsFontSizeToFitWidth = true
+        button.addTarget(self, action: #selector(ONActionBack), for: .touchUpInside)
+        self.view.addSubview(button)
     }
-    */
-
 }
